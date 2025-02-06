@@ -1,68 +1,114 @@
 package assessment;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class LearningIt {
+
+	public void larbenumber(int[] arr)
+
+	{
+		int large = arr[0];
+		for (int i = 0; i < arr.length; i++) {
+			if (large < arr[i]) {
+				large = arr[i];
+			}
+		}
+		System.out.println(large);
+	}
+
+	public void countOfCharacter(String input, char ch) {
+		char[] charArray = input.toCharArray();
+		int count = 0;
+		for (int i = 0; i < charArray.length; i++) {
+			if (ch == charArray[i]) {
+				count++;
+			}
+		}
+		System.out.println(count);
+	}
+
+	public void sortArray(int[] arr) {
+		int temp = 0;
+		for (int i = 0; i < arr.length - 1; i++) {
+			for (int j = 0; j < arr.length - 1; j++) {
+				if (arr[j] < arr[j + 1]) {
+					temp = arr[j + 1];
+					arr[j + 1] = arr[j];
+					arr[j] = temp;
+				}
+			}
+
+		}
+		for (int num : arr) {
+			System.out.println(num);
+		}
+	}
+
+	void checkAnagram() {
+		String one = "ball";
+		String two = "loabl";
+		if (one.length() == two.length()) {
+			char[] ch1 = one.toCharArray();
+			char[] ch2 = two.toCharArray();
+			boolean check = false;
+			for (int i = 0; i < ch1.length; i++) {
+				for (int j = 0; j < ch2.length; j++) {
+					if (ch1[i] == ch2[j]) {
+						check = true;
+						break;
+					} else {
+						check = false;
+					}
+				}
+				if (!check) {
+					break;
+				}
+			}
+			boolean check1 = false;
+			for (int i = 0; i < ch2.length; i++) {
+				for (int j = 0; j < ch1.length; j++) {
+					if (ch2[i] == ch1[j]) {
+						check1 = true;
+						break;
+					} else {
+						check1 = false;
+					}
+				}
+				if (!check1) {
+					break;
+				}
+			}
+			if (check && check1) {
+				System.out.println("both are anagram");
+			} else {
+				System.out.println("both are not anagram");
+			}
+		} else {
+			System.out.println("Length are not same, hence cannot be anagram");
+		}
+
+	}
+
+	public void split()
+	{
+		String num="34,995.00";
+		String replace = num.replaceAll("[^0-9]", "");
+		System.out.println(replace);
+		int parseInt = (Integer.parseInt(replace))/100;
+		System.out.println(parseInt);
+	}
 	public static void main(String[] args) {
 
-//		String str="ab-cd";
-		String new1=new String();
-		String str="Testleaf-Software=Great-value!";
-		char[] charArray = str.toCharArray();
-		for(int i=charArray.length-1;i>=0;i--)
-		{
-			//System.out.print(charArray[i]);
-			new1=new1+charArray[i];
-		}
-		System.out.println(new1);
-		str="testleaf";
-		char ch='t';
-		char[] charArray2 = str.toCharArray();
-		String new2=new String();
-		for(int i=0;i<charArray2.length;i++)
-		{
-			if(charArray2[i]!=ch)
-			{
-				new2=new2+charArray2[i];
-			}
-			
-		}
-		System.out.println(new2);
-		str="Hello Testleaf,you are awesome!";
-		String replaceAll = str.replaceAll(","," ");
-		System.out.println(replaceAll);
-		String[] split = replaceAll.split(" ");
-		System.out.println(split.length);
-		str="";
-		String lowerCase = str.toLowerCase();
-		String replace = lowerCase.replaceAll("[^A-za-z0-9]"," ");
-		System.out.println(replace);
-		String replace2 = replace.replace(" ","");
-		System.out.println(replace2);
-		boolean comp=false;
-		int k=replace2.length();
-		k=k-1;
-		if(replace2.equals(""))
-		{
-			comp=true;
-		}
-		else {
-		for (int i = 0; i < replace2.length(); i++)
-		{
-			if(replace2.charAt(i)==replace2.charAt(k))
-			{
-				comp=true;
-				k--;
-			}
-			else
-			{
-				comp=false;
-				break;
-			}
-			
-		}
-		System.out.println(comp);
+//		
+
 		
-		
-	}
+		  int[] numbers = {45, 12, 78, 34, 89, 23}; LearningIt it=new LearningIt();
+		 
+		 // it.checkAnagram();
+		  it.split();
+		 
+
 	}
 
 }

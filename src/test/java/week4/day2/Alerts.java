@@ -5,12 +5,15 @@ import java.time.Duration;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Alerts {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ChromeDriver driver=new ChromeDriver();
+		ChromeOptions options =new ChromeOptions();
+		options.addArguments("--disable-notifications");
+		ChromeDriver driver=new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.get("https://www.leafground.com/alert.xhtml");
