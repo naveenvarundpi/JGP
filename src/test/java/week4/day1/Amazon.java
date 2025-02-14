@@ -1,4 +1,4 @@
-package week4.day1;
+package src.test.java.week4.day1;
 
 public class Amazon extends CanaraBank{
 

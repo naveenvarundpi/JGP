@@ -1,4 +1,4 @@
-package marathon2;
+package Marathon.marathon2;
 
 import java.io.File;
 import java.io.IOException;

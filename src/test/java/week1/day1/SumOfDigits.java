@@ -1,4 +1,4 @@
-package week1.day1;
+package src.test.java.week1.day1;
 
 public class SumOfDigits {
 

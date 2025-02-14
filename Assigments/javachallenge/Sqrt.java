@@ -1,4 +1,4 @@
-package javachallenge;
+package Assigments.javachallenge;
 
 public class Sqrt {
 

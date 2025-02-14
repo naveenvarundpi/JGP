@@ -1,4 +1,4 @@
-package week2.day1;
+package Assigments.week2.day1;
 
 public class Library {
 

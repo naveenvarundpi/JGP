@@ -1,4 +1,4 @@
-package week5.day2;
+package Assigments.week5.day2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class TestCase1 extends ProjectSpecificMethod{
 	@Test
-	public void createEntity() throws InterruptedException
+	public void Precondition() throws InterruptedException
 	{
 			String uName="Naveen Kumar";	
 			//Click View All and click Legal Entities from App Launcher

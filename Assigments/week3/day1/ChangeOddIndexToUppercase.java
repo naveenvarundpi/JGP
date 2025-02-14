@@ -1,5 +1,4 @@
-package week3.day1;
-
+package Assigments.week3.day1;
 public class ChangeOddIndexToUppercase {
 public static void main(String[] args) {
 	

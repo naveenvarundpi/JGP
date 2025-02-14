@@ -1,4 +1,4 @@
-package week3.day2;
+package src.test.java.week3.day2;
 
 public class Safari extends Browser {
 	public void readerMode() 

@@ -1,4 +1,4 @@
-package practise;
+package src.test.java.practise;
 
 import java.io.File;
 import java.time.Duration;

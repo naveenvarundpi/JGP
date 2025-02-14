@@ -1,4 +1,4 @@
-package week1.day2;
+package Assigments.week1.day2;
 
 public class Fibonacci {
 

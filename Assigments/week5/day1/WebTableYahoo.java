@@ -1,4 +1,4 @@
-package week5.day1;
+package Assigments.week5.day1;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ public class WebTableYahoo {
 			//Load the url - https://finance.yahoo.com/
 			driver.get("https://finance.yahoo.com/");
 			Thread.sleep(5000);
-			//- Click on “Crypto” tab
+			//- Click on ï¿½Cryptoï¿½ tab
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("window.stop();");
 			Actions act=new Actions(driver);

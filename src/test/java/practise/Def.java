@@ -1,4 +1,4 @@
-package practise;
+package src.test.java.practise;
 
 public abstract class Def {
 public abstract void getr();

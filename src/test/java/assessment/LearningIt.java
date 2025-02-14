@@ -1,4 +1,4 @@
-package assessment;
+package src.test.java.assessment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;

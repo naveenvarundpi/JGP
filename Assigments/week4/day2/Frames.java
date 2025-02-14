@@ -1,4 +1,4 @@
-package week4.day2;
+package Assigments.week4.day2;
 
 import java.time.Duration;
 

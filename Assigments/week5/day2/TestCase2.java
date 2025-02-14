@@ -1,4 +1,4 @@
-package week5.day2;
+package Assigments.week5.day2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;

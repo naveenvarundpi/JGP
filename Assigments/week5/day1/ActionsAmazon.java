@@ -1,4 +1,4 @@
-package week5.day1;
+package Assigments.week5.day1;
 
 import java.io.File;
 import java.io.IOException;

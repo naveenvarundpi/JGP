@@ -1,4 +1,4 @@
-package practise;
+package src.test.java.practise;
 
 public class SortedSquare {
 

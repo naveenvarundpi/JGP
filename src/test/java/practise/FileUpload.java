@@ -1,4 +1,4 @@
-package practise;
+package src.test.java.practise;
 
 import java.awt.Robot;
 import java.awt.Toolkit;

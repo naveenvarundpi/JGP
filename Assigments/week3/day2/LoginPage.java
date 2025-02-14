@@ -1,4 +1,4 @@
-package week3.day2;
+package Assigments.week3.day2;
 
 public class LoginPage extends BasePage{
 	public void findElement()

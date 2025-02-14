@@ -1,4 +1,4 @@
-package jan27;
+package MockInterview.jan27;
 
 public class Grade {
 	public void grades(int mark)  

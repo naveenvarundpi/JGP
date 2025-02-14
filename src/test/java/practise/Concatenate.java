@@ -1,4 +1,4 @@
-package practise;
+package src.test.java.practise;
 
 public class Concatenate {
 	public void sum(int a, int b)

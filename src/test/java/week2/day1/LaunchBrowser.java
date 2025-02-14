@@ -1,4 +1,4 @@
-package week2.day1;
+package src.test.java.week2.day1;
 
 import java.time.Duration;
 

@@ -1,4 +1,4 @@
-package week5.day1;
+package src.test.java.week5.day1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

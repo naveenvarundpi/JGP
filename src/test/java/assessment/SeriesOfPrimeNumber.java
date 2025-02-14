@@ -1,4 +1,4 @@
-package assessment;
+package src.test.java.assessment;
 
 public class SeriesOfPrimeNumber {
 

@@ -1,4 +1,4 @@
-package week3.day1;
+package Assigments.week3.day1;
 
 public class Reverse_Odd_Words {
 
